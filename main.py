@@ -424,4 +424,122 @@ import random
 
 # 2. Turite žodyną su studentų vardais ir jų pažymiais.
 # Parašykite "for" ciklą, kuris išveda kiekvieno studento vardą ir jo pažymį.
+#
+# studentai = {
+#     "Augis": 10,
+#     "Rasa": 7,
+#     "Daiva": 9,
+#     "Antanas": 5
+#
+# }
+# for vardas, pazymys in studentai.items():
+#     print(f"Studentas: {vardas}, Pazymys: {pazymys}")
+
+# 3. Sukurkite tuščią sąrašą sarasas ir leiskite vartotojui įvesti skaičius. Naudojant "while" ciklą,
+# pridėkite kiekvieną įvestą skaičių prie sąrašo.
+# Ciklą nutraukite, kai vartotojas įveda 0.
+
+# sarasas = []
+# while True:
+#     skaicius = float(input("iveskite skaiciu (N.B.: ivedus 0, ciklas baigsis):"))
+#     if skaicius ==0:
+#         break
+#         sarasas.append(skaicius)
+#         print("ivesti skaiciai:")
+#         for skaicius in sarasas:
+#             print(skaicius)
+
+# 4. Turite žodyną, kuriame saugomi gėrimų pavadinimai ir jų kainos.
+# Vartotojas įveda gėrimo pavadinimą, o jūs patikrinkite, ar tokio pavadinimo gėrimas yra žodyne.
+# Jei taip, išveskite jo kainą; jei ne, išveskite pranešimą "Gėrimas nerastas".
+
+
+
+
+
+# jei tik pop, paskutinis nuo galo
+# vardai = ['Jonas', 'Petras', 'Marius', 'Laura']
+# pirmas_vardas = vardai.pop(0)
+# print(pirmas_vardas)
+
+
+# indeksas parodo kelinta isves: rodys Jonas
+#
+# vardai = ['Jonas', 'Petras', 'Marius', 'Laura']
+# pirmas_vardas = vardai.pop(0)
+# print(pirmas_vardas)
+
+# vardai = ['Jonas', 'Petras', 'Marius', 'Laura']
+# vardai.insert(1,'Giedrius')
+# print(vardai)
+
+# vardai.append('Giedrius')
+
+# vardai.sort()
+# print(vardai)
+
+# vardai.sort(reverse=True)
+# print(vardai)
+
+# vardai.remove('Laura')
+# print(vardai)
+
+
+# () negalima keisti reiksmiu. naudojami raktai.
+# [] galima keisti reiksmes
+
+
+# vaisiai = ('obuolys', 'kriause', 'bananas', 'braske')
+# vaisiai1 = ['obuolys', 'kriause', 'bananas', 'braske']
+# vaisiai = {
+#     'obuolys'
+#     'kriause'
+#     'bananas'
+#     'braske'
+# }
+
+# vaisiai2 = vaisiai[0]
+# print(vaisiai2)
+
+# skaiciai = (3.14, 2.71)
+# x, y = skaiciai
+# print(x)
+# print(y)
+
+# vaisiai = ['obuolys', 'kriause', 'bananas', 'braske']
+# for indeksas, vaisius in enumerate(vaisiai, start=1):
+#     print(f"{indeksas}. {vaisius}")
+
+# open funkcija - rasoma su with
+# r -
+# w -
+
+# suskaiciavo kiekviena raide ir tarpa
+
+# with open("failo_pav.txt", 'w', encoding='utf-8') as file:
+#     content = file.write("kuriame nauja faila")
+#     print(content)
+
+# with open("failo_pav.txt", 'w', encoding='utf-8') as file:
+#     content = file.read()
+#     print(content)
+
+# with open("failo_pav.txt", 'w', encoding='utf-8') as file:
+#     content = file.write("\Papildomas tekstas")
+#     print(content)
+
+# with open("failo_pav.txt", 'r', encoding='utf-8') as file:
+#     content = file.read()
+#     print(content)
+
+# with open("failo_pav.txt", 'r', encoding='utf-8') as file:
+#     for eilute in file:
+#         print(eilute.strip())
+
+# vaisiai = []
+# with open("vaisiai.txt", 'r', encoding='utf-8') as file:
+#     file.write('obuolys, \nkriause, \nbananas, \nbraske')
+#     vaisiai = file.readlines()
+#     print(vaisiai)
+
 
