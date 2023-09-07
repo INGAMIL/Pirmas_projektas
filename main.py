@@ -405,4 +405,23 @@ import random
 # else:
 #     print(f"Vardas {vardas} nera sarase")
 
+# 1. Sukurkite sąrašą temperatūros su temperatūromis. Patikrinkite kiekvieną temperatūrą sąraše
+# ir išveskite "šilta" (jei temperatūra virš 20) arba "šalta" (jei temperatūra 20 ar mažiau).
+
+# temperaturos = [15, 20, 22, 25, 28, 30]
+# for temperatura in temperaturos:
+#     if temperatura > 20:
+#         print(f"{temperatura} yra šilta.")
+#     else:
+#         print(f"{temperatura} yra šalta. ")
+
+# temperaturos = [15, 20, 22, 25, 28, 30]
+# for temperatura in temperaturos:
+#     if temperatura > 20:
+#         print(f"{temperatura} yra šilta.")
+#     else:
+#         print(f"{temperatura} yra šalta. ")
+
+# 2. Turite žodyną su studentų vardais ir jų pažymiais.
+# Parašykite "for" ciklą, kuris išveda kiekvieno studento vardą ir jo pažymį.
 
